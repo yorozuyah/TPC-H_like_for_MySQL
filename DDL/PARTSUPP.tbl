@@ -1,0 +1,21 @@
+PARTSUPP Table Layout
+
+Column Name
+Datatype Requirements
+
+PS_PARTKEY
+Identifier
+
+PS_SUPPKEY
+Identifier
+
+PS_AVAILQTY
+integer
+
+PS_SUPPLYCOST
+Decimal
+
+PS_COMMENT
+variable text, size 199
+
+Primary Key: PS_PARTKEY, PS_SUPPKEY	
